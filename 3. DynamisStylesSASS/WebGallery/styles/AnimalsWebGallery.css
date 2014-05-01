@@ -1,0 +1,32 @@
+.clearfix, body {
+  zoom: 1; }
+  .clearfix:before, body:before, .clearfix:after, body:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .clearfix:after, body:after {
+    clear: both; }
+
+nav ul li {
+  list-style: none;
+  display: inline-block; }
+  nav ul li .thumb {
+    width: 150px;
+    height: 125px;
+    opacity: 0.6; }
+    nav ul li .thumb:hover {
+      opacity: 1;
+      box-shadow: black 0px 0px 25px; }
+
+.pictureAnimals input[type="radio"] {
+  display: none; }
+  .pictureAnimals input[type="radio"]:checked + .image {
+    display: block;
+    width: 350px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: #999999 0px 0px 25px; }
+.pictureAnimals .image {
+  display: none; }
+

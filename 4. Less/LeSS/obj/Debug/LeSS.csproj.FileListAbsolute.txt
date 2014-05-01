@@ -1,0 +1,2 @@
+D:\StudentsAcademy\CSS\LeSS\LeSS\LeSS\bin\Debug\LeSS.exe.config
+D:\Telerik\Academy\CSS\6. Динамични стилове с LESS\LeSS\LeSS\LeSS\bin\Debug\LeSS.exe.config

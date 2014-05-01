@@ -1,0 +1,140 @@
+body {
+  margin: 0px;
+  padding: 10px;
+  background-image: -webkit-linear-gradient(top, #cc66ff 0%, #9900cc 10%);
+  background-image: -moz-linear-gradient(top, #cc66ff 0%, #9900cc 10%);
+  background-image: -ms-linear-gradient(top, #cc66ff 0%, #9900cc 10%);
+  background-image: -o-linear-gradient(top, #cc66ff 0%, #9900cc 10%);
+  background-image: linear-gradient(to bottom, #cc66ff 0%, #9900cc 10%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc66ff 0%', endColorstr='#9900cc 10%',GradientType=0 );
+  background-repeat: none;
+  font-family: Arial; }
+
+header nav {
+  margin: 40px 30px;
+  padding: 0;
+  height: 60px;
+  width: 1100px; }
+  header nav ul {
+    border: 1px solid black;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    list-style: none;
+    font-size: 1.3em;
+    padding: 10px; }
+    header nav ul li {
+      display: inline-block;
+      padding: 1px;
+      margin: 5px;
+      margin-bottom: 1px; }
+      header nav ul li a {
+        color: white;
+        text-decoration: none; }
+      header nav ul li ul {
+        display: none;
+        position: absolute; }
+        header nav ul li ul li {
+          display: block; }
+      header nav ul li:hover > a {
+        text-decoration: underline; }
+      header nav ul li:hover > ul {
+        display: block;
+        background-color: black; }
+
+section {
+  display: inline-block; }
+  section article {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid black;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    width: 1000px; }
+    section article p {
+      color: white;
+      margin: 5px; }
+      section article p a {
+        text-decoration: none;
+        color: purple; }
+    section article header h1 {
+      font-size: 1.3em;
+      font-style: bold;
+      color: white;
+      padding-left: 10px; }
+    section article > footer p {
+      text-align: right;
+      padding-top: 20px;
+      font-weight: none; }
+
+div form div label {
+  color: white; }
+
+input[type="text"], input[type="password"] {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  background-color: #CC66FF; }
+
+#reg-form-container {
+  padding-right: 50px;
+  display: inline-block;
+  padding-left: 800px; }
+
+#logo-container {
+  display: inline-block; }
+
+#btn-register {
+  background-color: #CC66FF;
+  padding: 5px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold; }
+
+aside {
+  display: inline-block; }
+  aside ul {
+    list-style: none;
+    width: 350px; }
+    aside ul > li {
+      border: 1px solid black;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 15px; }
+      aside ul > li > p {
+        color: white; }
+        aside ul > li > p > a {
+          text-decoration: none;
+          color: #CC66FF; }
+      aside ul > li ul li {
+        background: url(../images/li-dot.png) no-repeat;
+        background-position: 0 50%;
+        padding-left: 25px;
+        width: 100px;
+        border-style: none;
+        color: white; }
+      aside ul > li h2 {
+        font-size: 1.1em;
+        font-weight: bold;
+        color: white; }
+
+footer #textFoot {
+  text-align: center;
+  color: white;
+  font-weight: bold; }
+

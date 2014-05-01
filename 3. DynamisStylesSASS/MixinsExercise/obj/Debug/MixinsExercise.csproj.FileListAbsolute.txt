@@ -1,0 +1,5 @@
+c:\Users\Stoyan\Documents\Visual Studio 2013\Projects\MixinsExercise\MixinsExercise\bin\MixinsExercise.dll
+c:\Users\Stoyan\Documents\Visual Studio 2013\Projects\MixinsExercise\MixinsExercise\bin\MixinsExercise.pdb
+c:\Users\Stoyan\Documents\Visual Studio 2013\Projects\MixinsExercise\MixinsExercise\obj\Debug\MixinsExercise.csprojResolveAssemblyReference.cache
+c:\Users\Stoyan\Documents\Visual Studio 2013\Projects\MixinsExercise\MixinsExercise\obj\Debug\MixinsExercise.dll
+c:\Users\Stoyan\Documents\Visual Studio 2013\Projects\MixinsExercise\MixinsExercise\obj\Debug\MixinsExercise.pdb
