@@ -1,0 +1,43 @@
+﻿
+table {
+    width: 600px;
+}
+table, th, td {
+    border-collapse: collapse;
+    border-style: none;
+    border-color: #CCC;
+    white-space: nowrap;
+    padding: 5px;
+}
+td {
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px inset #CCC;
+    border-left: 1px inset #CCC;
+}
+th {
+    border-top: 1px inset #CCC;
+    border-bottom: 1px inset #CCC;
+    border-right: 1px inset #CCC;
+    border-left: 1px inset #CCC;
+}
+thead {
+    background-color: #00CC00;
+    color: white;
+    font-family: 'Times New Roman';
+    text-align: left;
+}
+tr:nth-of-type(2n) {
+    background-color: #f5f2f2;
+}
+.flag {
+    padding-right: 2px;
+    width: 23px;
+    height: 15px;
+}
+#forthCol {
+    width: 100px;
+}
+#forthRow {
+    border-bottom: 1px inset #CCC;
+}

@@ -1,0 +1,42 @@
+﻿body {
+    background-color: #595959;
+    font-family: 'Times New Roman';
+}
+h1 {
+    color: #ACB1AA;
+    font-size: 20px;
+    padding: 6px;
+}
+table {
+    font-weight: bold;
+}
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+td {
+    padding: 6px;
+}
+td.labelInfo {
+    color: white;
+    font-style: italic;
+    vertical-align: top;
+    width: 150px;
+}
+.circle {
+    background-color: green;
+    border-radius: 50px;
+    float: left;
+    height: 13px;
+    width: 13px;
+    margin-right: 5px;
+}
+.details {
+    color: #ACB1AA; 
+}
+.red {
+    color: red;
+}
+.orange {
+    color: #FF9933;
+}
